@@ -1,0 +1,3 @@
+/home/dyh/Documents/RoutonCam/RoutonCamSDK/CMakeFiles/RoutonCamSDK.dir
+/home/dyh/Documents/RoutonCam/RoutonCamSDK/CMakeFiles/edit_cache.dir
+/home/dyh/Documents/RoutonCam/RoutonCamSDK/CMakeFiles/rebuild_cache.dir
