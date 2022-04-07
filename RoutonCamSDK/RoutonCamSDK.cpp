@@ -166,31 +166,33 @@ void CamSetDVRConfig(int wPanPos, int wTiltPos, int wZoomPos) {
 // 摄像头扫视四周
 void CamScanAround(bool *is_scan_finished) {
     printf("Camera start to scan.\n");
-    *is_scan_finished = false;
-    int targets[7][3] = {
-        0, 0, 1,
-        180, 0, 1,
-        350, 0, 1,
+    if (is_scan_finished != nullptr) {
+        *is_scan_finished = false;
+        int targets[7][3] = {
+            0, 0, 1,
+            180, 0, 1,
+            350, 0, 1,
 
-        350, 45, 1,
-        180, 45, 1,
-        0, 45, 1,
+            350, 45, 1,
+            180, 45, 1,
+            0, 45, 1,
 
-        0, 90, 1
-    };
-    bool finishedInit;
-    for (int i = 0; i < 7; i++) {
-        finishedInit = false;
-        gCAM->SetDVRConfig(targets[i][0], targets[i][1], targets[i][2]);  
-        while (!finishedInit) {
-            sleep(2);
-            std::vector<int> cur_config = gCAM->GetDVRConfig();
-            if (cur_config[0] == targets[i][0] && cur_config[1] == targets[i][1] && cur_config[2] == targets[i][2]) {
-                finishedInit = true;
-            }
-        } 
+            0, 90, 1
+        };
+        bool finishedInit;
+        for (int i = 0; i < 7; i++) {
+            finishedInit = false;
+            gCAM->SetDVRConfig(targets[i][0], targets[i][1], targets[i][2]);  
+            while (!finishedInit) {
+                sleep(2);
+                std::vector<int> cur_config = gCAM->GetDVRConfig();
+                if (cur_config[0] == targets[i][0] && cur_config[1] == targets[i][1] && cur_config[2] == targets[i][2]) {
+                    finishedInit = true;
+                }
+            } 
+        }
+        *is_scan_finished = true;
     }
-    *is_scan_finished = true;
     printf("Camera finished scanning.\n");
 }
 

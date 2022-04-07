@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 SET(PREJECT_ROOT_PATH ${PROJECT_SOURCE_DIR})
 
+# env_x86_64_linux 或 env_x86_64_linux_rk1109
 set(RUN_ENV env_x86_64_linux)
 
 if( "${RUN_ENV}" STREQUAL "env_x86_64_linux")
@@ -18,20 +19,20 @@ if( "${RUN_ENV}" STREQUAL "env_x86_64_linux")
 
 elseif("${RUN_ENV}" STREQUAL "env_x86_64_linux_rk1109")
 
-    SET(CMAKE_SYSROOT ${PREJECT_ROOT_PATH}/../rk/sysroot)
+    SET(CMAKE_SYSROOT ${PREJECT_ROOT_PATH}/../../rk/sysroot)
 
-    set(SYSROOT_INC_PATH ${PREJECT_ROOT_PATH}/../rk/sysroot/usr/include)
-    set(SYSROOT_LIB_PATH ${PREJECT_ROOT_PATH}/../rk/sysroot)
-    set(SYSROOT_USR_LIB_PATH ${PREJECT_ROOT_PATH}/../rk/sysroot/usr/lib)
+    set(SYSROOT_INC_PATH ${PREJECT_ROOT_PATH}/../../rk/sysroot/usr/include)
+    set(SYSROOT_LIB_PATH ${PREJECT_ROOT_PATH}/../../rk/sysroot)
+    set(SYSROOT_USR_LIB_PATH ${PREJECT_ROOT_PATH}/../../rk/sysroot/usr/lib)
 
     include_directories(${SYSROOT_INC_PATH})
     link_directories(${SYSROOT_LIB_PATH})
     link_directories(${SYSROOT_USR_LIB_PATH})
     
-    set(CMAKE_C_COMPILER ${PREJECT_ROOT_PATH}/../rk/prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc)
-    set(CMAKE_CXX_COMPILER ${PREJECT_ROOT_PATH}/../rk/prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++)
+    set(CMAKE_C_COMPILER ${PREJECT_ROOT_PATH}/../../rk/prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc)
+    set(CMAKE_CXX_COMPILER ${PREJECT_ROOT_PATH}/../../rk/prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++)
 
-    set(COMPILER_LIB_PATH ${PREJECT_ROOT_PATH}/../rk/prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib/)
+    set(COMPILER_LIB_PATH ${PREJECT_ROOT_PATH}/../../rk/prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib/)
     link_directories(${COMPILER_LIB_PATH})
 
 elseif("${RUN_ENV}" STREQUAL "env_x86_64_window")
@@ -45,13 +46,15 @@ link_directories(${HIKVISION_SDK_LIB_PATH})
 
 link_libraries(hcnetsdk PlayCtrl AudioRender SuperRender)
 
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/lib)
-
 aux_source_directory(. DIR_SRCS)
-
-# 创建共享库
 add_library(RoutonCamSDK SHARED ${DIR_SRCS})
 
-
+# 创建共享库
+# if( "${RUN_ENV}" STREQUAL "env_x86_64_linux")
+#     set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/lib)
+# elseif("${RUN_ENV}" STREQUAL "env_x86_64_linux_rk1109")
+#     set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/lib/rk1109)
+# endif()
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/lib)
 
 #target_compile_definitions(RoutonCamSDK PRIVATE ROUTONCAMSDK_LIBRARY)
