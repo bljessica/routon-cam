@@ -444,3 +444,17 @@ void RoutonCam::HiksionSDK_Version()
     printf("%s",strTemp);
 }
 
+
+void RoutonCam::StartToRecordVideo() {
+    if (!NET_DVR_SaveRealData(_lRealPlayHandle, "test.mp4")) {
+        perror("Start to save video error.\n");
+    }
+}
+
+
+void RoutonCam::EndToRecordVideo() {
+    if (!NET_DVR_StopSaveRealData(_lRealPlayHandle)) {
+        perror("End to save video error.\n");
+    }
+}
+

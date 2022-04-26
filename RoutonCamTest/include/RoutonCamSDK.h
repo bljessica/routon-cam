@@ -91,6 +91,8 @@ void CamSetDVRConfig(int wPanPos, int wTiltPos, int wZoomPos);
 void CamScanAround(bool *is_scan_finished = nullptr);
 int CamRelease();
 void CamVersion();
+void CamStartToRecordVideo();
+void CamEndToRecordVideo();
 
 #endif
 

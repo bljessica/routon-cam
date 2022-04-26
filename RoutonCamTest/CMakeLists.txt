@@ -29,7 +29,7 @@ SET(HIKVISION_LIB_PATH ${PREJECT_ROOT_PATH}/lib/hikvision)
 include_directories(${CAMSDK_INC_PATH} ${OPENCV_INC_PATH})
 link_directories(${CAMSDK_LIB_PATH} ${OPENCV_LIB_PATH} ${HIKVISION_LIB_PATH})
 
-link_libraries(opencv_core opencv_imgproc opencv_imgcodecs opencv_highgui RoutonCamSDK)
+link_libraries(opencv_imgproc opencv_imgcodecs opencv_highgui opencv_core RoutonCamSDK)
 
 aux_source_directory(. SRC_FILE)
 

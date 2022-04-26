@@ -168,19 +168,19 @@ void CamScanAround(bool *is_scan_finished) {
     printf("Camera start to scan.\n");
     if (is_scan_finished != nullptr) {
         *is_scan_finished = false;
-        int targets[7][3] = {
+        int targets[5][3] = {
             0, 0, 1,
             180, 0, 1,
-            350, 0, 1,
+            // 350, 0, 1,
 
-            350, 45, 1,
+            // 350, 45, 1,
             180, 45, 1,
             0, 45, 1,
 
             0, 90, 1
         };
         bool finishedInit;
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < 5; i++) {
             finishedInit = false;
             gCAM->SetDVRConfig(targets[i][0], targets[i][1], targets[i][2]);  
             while (!finishedInit) {
@@ -216,5 +216,15 @@ void CamVersion()
     int version_patch = 0;
     int version_date = 20211207;
     printf("RoutonCamSDK verison-v%d.%d.%d.%d\n", version_major, version_minor, version_patch, version_date);
+}
+
+
+void CamStartToRecordVideo() {
+    return gCAM->StartToRecordVideo();
+}
+
+
+void CamEndToRecordVideo() {
+    return gCAM->EndToRecordVideo();
 }
 

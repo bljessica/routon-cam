@@ -46,6 +46,8 @@ link_directories(${HIKVISION_SDK_LIB_PATH})
 
 link_libraries(hcnetsdk PlayCtrl AudioRender SuperRender)
 
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/lib)
+
 aux_source_directory(. DIR_SRCS)
 add_library(RoutonCamSDK SHARED ${DIR_SRCS})
 
@@ -55,6 +57,5 @@ add_library(RoutonCamSDK SHARED ${DIR_SRCS})
 # elseif("${RUN_ENV}" STREQUAL "env_x86_64_linux_rk1109")
 #     set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/lib/rk1109)
 # endif()
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/lib)
 
 #target_compile_definitions(RoutonCamSDK PRIVATE ROUTONCAMSDK_LIBRARY)

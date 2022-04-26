@@ -22,6 +22,8 @@ public:
     // void SetDVRConfig(int target_x, int target_y, int frame_rows, int frame_cols);
     void SetDVRConfig(int wPanPos, int wTiltPos, int wZoomPos);
     // void SetDVRConfigHex(int wPanPos, int wTiltPos, int wZoomPos);
+    void StartToRecordVideo();
+    void EndToRecordVideo();
 
 private:
     //static void CALLBACK HC_RealDataCallBack(LONG lPlayHandle, DWORD dwDataType, BYTE *pBuffer, DWORD dwBufSize, void* pUser);

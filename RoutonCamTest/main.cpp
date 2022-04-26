@@ -54,11 +54,13 @@ int main(int argc, char *argv[])
     printf("Enter Esc to exit.\n");
     sleep(1);
     std::vector<char> input_pos_char_arr;
+    CamStartToRecordVideo();
     while (true) {
         const int keyCode = cv::waitKey(1);
         cv::Rect rect(1000, 800, 200, 200);
         cv::rectangle(gFrame, rect, cv::Scalar(0,0,255), 2); // 绘制人像矩形
         if (keyCode == 27) {
+            CamEndToRecordVideo();
             break;
         } else if (keyCode != -1){ 
             CamScanAround();
