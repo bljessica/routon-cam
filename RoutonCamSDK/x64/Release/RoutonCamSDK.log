@@ -1,0 +1,83 @@
+﻿  RouronCamSDK.cpp
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(2124,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(2622,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(5032,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(5447,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(6736,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(7144,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(13897,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(14549,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(17730,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(18389,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(22705,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(23344,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(30969,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(31603,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(32199,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(33424,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(34074,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(35337,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(35988,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(37968,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(38578,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(41022,1): warning C4010: 单行注释包含行继续符
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(41177,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(41781,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  RoutonCam.cpp
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(2124,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(2622,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(5032,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(5447,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(6736,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(7144,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(13897,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(14549,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(17730,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(18389,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(22705,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(23344,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(30969,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(31603,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(32199,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(33424,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(34074,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(35337,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(35988,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(37968,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(38578,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(41022,1): warning C4010: 单行注释包含行继续符
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(41177,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(41781,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\RoutonCamSDK\RoutonCamSDK\RoutonCam.cpp(173,16): warning C4311: “类型强制转换”: 从“void *”到“long”的指针截断
+F:\板子代码备份\RoutonCamSDK\RoutonCamSDK\RoutonCam.cpp(173,16): warning C4302: “类型强制转换”: 从“void *”到“long”截断
+  RoutonCamCommon.cpp
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(2124,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(2622,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(5032,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(5447,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(6736,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(7144,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(13897,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(14549,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(17730,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(18389,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(22705,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(23344,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(30969,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(31603,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(32199,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(33424,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(34074,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(35337,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(35988,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(37968,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(38578,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(41022,1): warning C4010: 单行注释包含行继续符
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(41177,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\板子代码备份\CH-HCNetSDKV6.1.9.4_build20220412_win64\头文件\HCNetSDK.h(41781,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+    正在创建库 F:\板子代码备份\RoutonCamSDK\x64\Release\RoutonCamSDK.lib 和对象 F:\板子代码备份\RoutonCamSDK\x64\Release\RoutonCamSDK.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 37 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  RoutonCamSDK.vcxproj -> F:\板子代码备份\RoutonCamSDK\x64\Release\RoutonCamSDK.dll
