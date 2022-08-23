@@ -24,6 +24,7 @@ public:
     // void SetDVRConfigHex(int wPanPos, int wTiltPos, int wZoomPos);
     void StartToRecordVideo();
     void EndToRecordVideo();
+    void PTZSetZoomIn(int x, int y, int width, int height, int frame_width, int frame_height);
 
 private:
     //static void CALLBACK HC_RealDataCallBack(LONG lPlayHandle, DWORD dwDataType, BYTE *pBuffer, DWORD dwBufSize, void* pUser);

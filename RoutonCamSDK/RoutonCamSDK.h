@@ -1,4 +1,5 @@
 #include <vector>
+#include <cmath>
 
 #ifndef ROUTONCAMSDK_H
 #define ROUTONCAMSDK_H
@@ -89,6 +90,8 @@ std::vector<int> CamGetDVRConfig();
 void CamSetDVRConfig(int wPanPos, int wTiltPos, int wZoomPos);
 // void CamSetDVRConfig(int target_x, int target_y, int frame_rows, int frame_cols);
 void CamScanAround(bool *is_scan_finished = nullptr);
+void CamSetZoomIn(int x, int y, int width, int height, int frame_width, int frame_height);
+void CamSetPtzAndFocus(int p, int t, int z, int x, int y, int width, int height, int frame_width, int frame_height);
 int CamRelease();
 void CamVersion();
 void CamStartToRecordVideo();

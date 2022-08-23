@@ -57,13 +57,15 @@ int main(int argc, char *argv[])
     CamStartToRecordVideo();
     while (true) {
         const int keyCode = cv::waitKey(1);
-        cv::Rect rect(1000, 800, 200, 200);
-        cv::rectangle(gFrame, rect, cv::Scalar(0,0,255), 2); // 绘制人像矩形
+        // cv::Rect rect(1000, 800, 200, 200);
+        // cv::rectangle(gFrame, rect, cv::Scalar(0,0,255), 2); // 绘制人像矩形
         if (keyCode == 27) {
             CamEndToRecordVideo();
             break;
         } else if (keyCode != -1){ 
-            CamScanAround();
+            // CamSetZoomIn(1043, 320, 235, 397, 1280, 720);
+            CamSetPtzAndFocus(130, 45, 1, 1043, 320, 235, 397, 1280, 720);
+            // CamScanAround();
             // // printf("Cur keycode:%d\n", keyCode);
             // if (keyCode >= 48 && keyCode <= 57 || keyCode == 32) { // 数字键或空格
             //     input_pos_char_arr.push_back(char(keyCode));

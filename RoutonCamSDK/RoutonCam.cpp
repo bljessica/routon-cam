@@ -400,7 +400,32 @@ void RoutonCam::SetDVRConfig(int wPanPos, int wTiltPos, int wZoomPos) {
     if (!NET_DVR_SetDVRConfig(_lUserID, NET_DVR_SET_PTZPOS, 0, &m_ptzPos, sizeof(NET_DVR_PTZPOS))) {
         printf("Set DVR Config failed.\n");
     }
+    // 等待摄像头执行完
+    bool finished_init = false;
+    while (!finished_init) {
+        sleep(1);
+        std::vector<int> cur_config = GetDVRConfig();
+        // printf("cur: %d %d %d\n", cur_config[0], cur_config[1], cur_config[2]);
+        if (cur_config[0] == wPanPos && cur_config[1] == wTiltPos && cur_config[2] == wZoomPos) {
+            finished_init = true;
+        }
+    } 
 }  
+
+
+// 控制摄像头聚焦某区域
+void RoutonCam::PTZSetZoomIn(int x, int y, int width, int height, int frame_width, int frame_height) {
+    // printf("set zoom in: x: %d, y: %d, w: %d, h: %d, f_w: %d, f_h: %d\n", x, y, width, height, frame_width, frame_height);
+    NET_DVR_POINT_FRAME pos_data;
+    pos_data.xTop = (int)(x * 255 / frame_width);
+    pos_data.xBottom = (int)((x + width) * 255 / frame_width);
+    pos_data.yTop = (int)(y * 255 / frame_height);
+    pos_data.yBottom = (int)((y + height) * 255 / frame_height);
+    pos_data.bCounter = 1;
+    if (!NET_DVR_PTZSelZoomIn(_lRealPlayHandle, &pos_data)) {
+        printf("Set PTZ zoom in failed, error code: %d.\n", NET_DVR_GetLastError());
+    }
+}
 
 
 // 设置摄像头参数
